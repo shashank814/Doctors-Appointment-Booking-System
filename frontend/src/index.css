@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+::-webkit-scrollbar {
+  @apply hidden
+}
+
+@media (max-width:740px) {
+  .axtive p{
+    @apply text-white bg-blue-700
+  }
+}
